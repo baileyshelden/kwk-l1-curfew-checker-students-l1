@@ -1,0 +1,62 @@
+# def simple_curfew_checker(time)
+
+#   if time => 11 
+#     puts "You are past curfew."
+# end
+
+# def curfew_checker(time)
+ 
+#   if time > 11 
+#     puts "You are late, get back home instantly."
+#   else time = 11 
+#     puts "The time is 11."
+  
+# end
+
+# def complex_curfew_checker(time)
+
+#   if time > 11
+#     puts "You are past curfew, get home immeadeately."
+#   elsif time == 11 
+#   puts "The time is 11, get home."
+# else 
+#   puts "you are before curfew."
+# end
+
+
+
+# def deluxe_curfew_checker(time)
+# curfew = 11 
+#   if 
+#     puts "It is #{curfew}."
+# end
+
+# def platinum_curfew_checker(current_time, curfew_time)
+ 
+# end
+
+# simple_curfew_checker(11)
+# curfew_checker(11)
+# complex_curfew_checker(11)
+# deluxe_curfew_checker(11)
+# platinum_curfew_checker(11)
+
+
+
+ def simple_curfew_checker(time)
+  # if time is 11 
+    if time == 11 
+   "Your in trouble. Better get home quick."
+  # later than 11
+if time > 11
+  "Your in trouble. Better get home quick."
+  # before 11
+  if time < 11
+  "Your not in trouble"
+ end
+ end
+
+simple_curfew_checker(10)
+
+
+
