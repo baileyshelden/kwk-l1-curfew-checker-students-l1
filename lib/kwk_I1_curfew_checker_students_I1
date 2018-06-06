@@ -49,10 +49,10 @@
    "Your in trouble. Better get home quick."
   # later than 11
 if time > 11
-  "Your in trouble. Better get home quick."
+  "You're in trouble. Better get home quick."
   # before 11
   if time < 11
-  "Your not in trouble"
+  "You're not in trouble.
  end
  end
 
